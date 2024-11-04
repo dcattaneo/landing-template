@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const Features = () => {
   return (
@@ -13,10 +14,10 @@ export const Features = () => {
         />
         <div className="sm:w-1/2 lg:py-[56px] lg:pr-[56px]">
           <h3 className="font-medium text-[#0085FF] lg:text-[18px]">
-            Sales Monitoring
+            Sales Performance Analysis
           </h3>
           <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
-            Simplify your sales monitoring
+            Optimize your sales performance analysis
           </h1>
           <Image
             src="/feature-1.svg"
@@ -68,18 +69,20 @@ export const Features = () => {
               Lorem ipsum dolor sit amet consec
             </li>
           </ul>
-          <p className="flex items-center gap-x-2 pt-[24px] font-medium text-[#36485C] lg:text-[18px]">
-            Learn More{" "}
-            <span>
-              {" "}
-              <Image
-                src="/blue-button.svg"
-                alt="Blue Button"
-                width={20}
-                height={20}
-              />{" "}
-            </span>{" "}
-          </p>
+          <Link href="/">
+            <p className="flex items-center gap-x-2 pt-[24px] font-medium text-[#36485C] lg:text-[18px]">
+              Learn More{" "}
+              <span>
+                {" "}
+                <Image
+                  src="/blue-button.svg"
+                  alt="Blue Button"
+                  width={20}
+                  height={20}
+                />{" "}
+              </span>{" "}
+            </p>
+          </Link>
         </div>
       </div>
 
@@ -92,11 +95,11 @@ export const Features = () => {
           className="hidden w-1/2 sm:block"
         />
         <div className="sm:w-1/2 lg:py-[56px] lg:pl-[56px]">
-          <h3 className="font-medium text-[#0085FF] lg:text-[18px]">
-            Customer support
+          <h3 className="font-medium text-[#00A424] lg:text-[18px]">
+            Customer Assistance
           </h3>
           <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
-            Get in touch with your customers
+            Stay connected with your customers
           </h1>
           <Image
             src="/feature-2.svg"
@@ -148,18 +151,20 @@ export const Features = () => {
               Lorem ipsum dolor sit amet consec
             </li>
           </ul>
-          <p className="flex items-center gap-x-2 pt-[24px] font-medium text-[#36485C] lg:text-[18px]">
-            Learn More{" "}
-            <span>
-              {" "}
-              <Image
-                src="/blue-button.svg"
-                alt="Blue Button"
-                width={20}
-                height={20}
-              />{" "}
-            </span>{" "}
-          </p>
+          <Link href="/">
+            <p className="flex items-center gap-x-2 pt-[24px] font-medium text-[#36485C] lg:text-[18px]">
+              Learn More{" "}
+              <span>
+                {" "}
+                <Image
+                  src="/green-button.svg"
+                  alt="Green Button"
+                  width={20}
+                  height={20}
+                />{" "}
+              </span>{" "}
+            </p>
+          </Link>
         </div>
       </div>
 
@@ -172,11 +177,11 @@ export const Features = () => {
           className="hidden w-1/2 sm:block"
         />
         <div className="sm:w-1/2 lg:py-[56px] lg:pr-[56px]">
-          <h3 className="font-medium text-[#0085FF] lg:text-[18px]">
-            Sales Monitoring
+          <h3 className="font-medium text-[#EB2891] lg:text-[18px]">
+            Boost Sales
           </h3>
           <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
-            Simplify your sales monitoring
+            Accelerate your sales growth effortlessly
           </h1>
           <Image
             src="/feature-3.svg"
@@ -193,26 +198,28 @@ export const Features = () => {
 
           <div className="flex w-full gap-x-[24px]">
             <div className="w-1/2 flex flex-col gap-y-3">
-              <h3 className="text-[20px] font-medium text-[#172026]">100</h3>
-              <p className="text-[#36485c]"> Lorem ipsum </p>
+              <h3 className="text-[20px] font-medium text-[#172026]">+100</h3>
+              <p className="text-[#36485c]"> Successful deals closed </p>
             </div>
             <div className="w-1/2 flex flex-col gap-y-3">
               <h3 className="text-[20px] font-medium text-[#172026]">+800</h3>
-              <p className="text-[#36485c]"> Lorem ipsum simet </p>
+              <p className="text-[#36485c]"> New subscriptions this month </p>
             </div>
           </div>
-          <p className="flex items-center gap-x-2 pt-[24px] font-medium text-[#36485C] lg:text-[18px]">
-            Learn More{" "}
-            <span>
-              {" "}
-              <Image
-                src="/blue-button.svg"
-                alt="Blue Button"
-                width={20}
-                height={20}
-              />{" "}
-            </span>{" "}
-          </p>
+          <Link href="/">
+            <p className="flex items-center gap-x-2 pt-[24px] font-medium text-[#36485C] lg:text-[18px]">
+              Learn More{" "}
+              <span>
+                {" "}
+                <Image
+                  src="/pink-button.svg"
+                  alt="Pink Button"
+                  width={20}
+                  height={20}
+                />{" "}
+              </span>{" "}
+            </p>
+          </Link>
         </div>
       </div>
     </div>
